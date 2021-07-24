@@ -1,0 +1,194 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    border-width: 5px;
+    border-color: #040303;
+    background-color: #FFBCBC;
+    width: 5%;
+    margin: 0 auto;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: "Ubuntu"; 
+    
+}
+/* navbar  */
+
+.navbar{
+    padding: 1.5% 2%;
+}
+
+.item-set{
+    margin: 0 1.5rem;
+}
+
+/* title  */
+#title{
+
+    background-image: url("https://wi.wallpapertip.com/wsimgs/160-1604579_web-development.jpg");
+    height: 110vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title-content{
+    background-color:#7375756e;
+    width: 100%;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+.heading{
+    color: #fff;
+    padding-top: 8rem;
+    font-weight: bold; 
+    font-size: 2.5rem;
+}
+
+.sub-heading{
+    font-family: "Ubuntu";
+    color: #fff;
+line-height: 3rem;
+}
+
+/* about */
+#about{
+    background-color: #FFBCBC;
+}
+
+#about h1{
+    color: #fff;
+    padding: 3rem 0 1rem 0;
+    font-weight: bold; 
+    font-size: 2.5rem;
+}
+#about h2{
+    color: #fff;
+    /* padding-top: 8rem; */
+    font-weight: bold; 
+    font-size: 2rem;
+    text-align: left;
+}
+#about h3{
+    text-align: left;
+}
+#about img{
+    border-radius: 100%;
+    width:50%;
+    margin: 2rem;
+    border:2px dotted white
+
+}
+
+.discription{
+    margin: auto 0;
+}
+
+/* project */
+#project{
+    background-color: #FEF7DC;
+}
+#project h1{
+    padding:1rem;
+    color:#036b75;
+    font-weight:600;
+}
+#project .img-1{
+    width:40%;
+    margin: 1rem auto;
+}
+#project .img-2{
+    width:30%;
+    margin: 1rem auto;
+}
+.project-padding{
+    padding:2rem 4rem;
+}
+
+/* footer  */
+
+#footer{
+    background-color: #252424;
+    padding: 1.5rem;
+}
+.footer-icon{
+    margin: 0 4px;
+    color: #fff;
+}
+#footer p{
+    color:#fff;
+    margin-bottom: 1px;
+}
+
+@media (max-width:991px) and (min-width:508px){
+  
+  /* about */
+    #about h2{
+        text-align: center;
+    }
+    #about h3{
+        text-align: center;
+    }
+    .row-adjust{
+        margin: 2rem;
+    }
+    #about img{
+        width: 40%;
+    }
+
+    /* project */
+    #project{
+        margin-top:-33px;
+    }
+
+}
+
+@media (max-width:526px) {
+    .heading{
+        color: #fff;
+        padding-top: 7rem;
+        font-weight: bold; 
+        font-size: 2rem;
+    }
+    
+    .sub-heading{
+        color: #fff;
+    line-height: 2rem;
+    }
+    #about h2{
+        text-align: center;
+    }
+    #about h3{
+        text-align: center;
+    }
+    .row-adjust{
+        margin: 2rem;
+    }
+
+    /* project */
+    #project{
+        margin-top:-33px;}
+
+        .project-padding{
+            padding:2rem 0;
+        }
+
+}
+
+@media (max-width:404px){
+
+    #about img{
+       
+        width:70%;
+    
+    }
+}
